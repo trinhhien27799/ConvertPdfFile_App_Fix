@@ -9,15 +9,11 @@ import { Dialog, Portal, Provider } from "react-native-paper";
 import ImageTypeFile from "./Conponents/ImageTypeFile";
 import LottieView from "lottie-react-native";
 
-// The Shit: API error: [AxiosError: Network Error]
-// The Shit: unable to press button to convert different type file
-
 const App = () => {
     const [selectedFile, setSelectedFile] = useState(null);
     const [selectedTypeFile, setSelectedTypeFile] = useState(null);
 
     const ipConfig = '192.168.1.63';
-    const [data, setData] = useState(null);
 
     const [visible, setVisible] = React.useState(false);
     const hideDialog = () => setVisible(false);

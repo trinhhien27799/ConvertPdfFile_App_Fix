@@ -13,6 +13,7 @@ const App = () => {
     const [selectedFile, setSelectedFile] = useState(null);
     const [selectedTypeFile, setSelectedTypeFile] = useState(null);
 
+    // Thay đổi IP này để chạy API với mạng hiện tại
     const ipConfig = '192.168.1.63';
 
     const [visible, setVisible] = React.useState(false);
